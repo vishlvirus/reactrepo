@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Remote Workforce Productivity",
+        "details": "Enable your remote workforce to be productive with best in class productivity platforms",
+        "images": "./images/1.png"
+    },    
+    {
+        "name": "InfoSecurity",
+        "details": "Adopt defense in depth methodology to achieve 360 degree security",
+        "images": "./images/2.png"
+    },
+    {
+        "name": "Enterprise Service Management",
+        "details": "Manage and serve geographically dispersed workforce",
+        "images": "./images/3.png"
+    },
+    {
+        "name": "Cloud Managed Services",
+        "details": "Utilize our deep experience to help you manage your cloud experience",
+        "images": "./images/4.png"
+    },
+    {
+        "name": "Modern Application",
+        "details": "Take the next leap with Devops, PaaS, Containers and other innovative technologies",
+        "images": "./images/5.png"
+    },
+    {
+        "name": "Digital Automation",
+        "details": "Automate your business processes to capture the strategic advantage",
+        "images": "./images/6.png"
+    }
+]
