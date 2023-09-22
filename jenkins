@@ -1,0 +1,45 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                // Checkout your source code from your Git repository
+                checkout scm
+            }
+        }
+        
+        stage('Install Dependencies') {
+            steps {
+                // Use Node.js to install dependencies
+                sh 'npm install'
+            }
+        }
+        
+        stage('Build') {
+            steps {
+                // Build the React application
+                sh 'npm run build'
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                // Example: Deploy the build artifacts to a web server
+                // Replace this with your actual deployment strategy
+                // For example, you can use SCP, FTP, or any other method
+                // to copy the build artifacts to your web server.
+                sh 'scp -r build/* user@your-server:/path/to/deploy'
+            }
+        }
+    }
+
+    post {
+        success {
+            // Notify success, send notifications, or perform other post-build actions
+        }
+        failure {
+            // Notify failure or perform other actions on build failure
+        }
+    }
+}
