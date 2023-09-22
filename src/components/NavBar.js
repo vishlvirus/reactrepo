@@ -17,7 +17,6 @@ const NavBar = () => {
             <a href=''> Contact Us </a>
           </button>
         </div>
-
       </div>
     </section>
 

@@ -1,6 +1,6 @@
 :root {
   --primary: #1f3e72;
-  --secondary: rgba(255, 255 ,255, 0.78);
+  --secondary: rgba(255, 255, 255, 0.78);
   --black: #131110;
   --blue-gradient: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
   --orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
@@ -11,15 +11,15 @@
   --appcolor: #3c3f45;
   --darkGrey: #464d53;
   --caloryCard: #656565;
-  --lightGray: #D9D9D9;
+  --lightGray: #d9d9d9;
+  --orange: #f48915;
 }
 
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -28,11 +28,11 @@ a {
   text-decoration: none;
 }
 
-.paddings{
+.paddings {
   padding: 1.5rem;
 }
 
-.innerWidth{
+.innerWidth {
   width: 100%;
 }
 
@@ -44,62 +44,62 @@ a {
   flex-wrap: wrap;
 }
 
-.flexStart{
+.flexStart {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.flexEnd{
+.flexEnd {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-.flexColCenter{
+.flexColCenter {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.flexColStart{
+.flexColStart {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
-.flexColEnd{
+.flexColEnd {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
 }
 
-.primaryText{
+.primaryText {
   color: #1f3e72;
   font-weight: bold;
   font-size: 2rem;
 }
 
-.secondaryText{
+.secondaryText {
   color: rgba(140, 139, 139);
   font-size: 0.9rem;
 }
 
-.ternaryText{
-  color: 	#87CEEB;
+.ternaryText {
+  color: #87ceeb;
   font-size: 1.2rem;
   font-weight: 200;
 }
 
-.orangeText{
+.orangeText {
   color: orange;
   font-size: 1.5rem;
   font-weight: 600;
 }
 
-.button{
+.button {
   font-weight: 500;
   padding: 0.6rem 1.4rem;
   color: white;
@@ -114,7 +114,7 @@ a {
   transform: scale(1.1);
 }
 
-.stroke-text{
+.stroke-text {
   color: transparent;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-text-stroke-width: 1px;
@@ -122,20 +122,20 @@ a {
 }
 
 @media (min-width: 1536px) {
-  .innerwidth{
+  .innerwidth {
     max-width: 1280px;
     margin: auto;
   }
 }
 
-@media (min-width: 640px){
-  .paddings{
+@media (min-width: 640px) {
+  .paddings {
     padding: 4rem;
   }
 }
 
 @media (min-width: 1280px), (min-width: 768px) {
-  .paddings{
+  .paddings {
     padding: 2rem;
   }
 }
@@ -150,7 +150,7 @@ a {
   overflow: hidden;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
 

@@ -1,5 +1,5 @@
-// import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+// import './App.css';
 import Hero from './components/Hero';
 import NavBar from './components/NavBar';
 // import Program from './components/Programs/Program';
@@ -12,20 +12,20 @@ function App() {
   return (
     <div className="App">
       <div>
-       <div className='white-gradient'/>
+        <div className='white-gradient' />
         <NavBar />
         <Hero />
       </div>
-      
+
       <div className='solutions'>
-      <Solution/>
+        <Solution />
       </div>
       <div>
-        <Programs/>
+        <Programs />
       </div>
-      <Companies/>
+      <Companies />
       <div>
-      <Testimonials/>
+        <Testimonials />
       </div>
     </div>
   );
